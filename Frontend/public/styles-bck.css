@@ -1,0 +1,413 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family:serif;
+    font-size: 90%;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.nav-title-container{
+    width: 70%;
+}
+
+.nav-title{
+    display: flex;
+    width: 40%;
+    padding-left: 2%;
+}
+
+
+.nav-inner-container{
+    width: 50%;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-inner > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 140%;
+    transition: 1s;
+}
+
+.nav-inner > div > a{
+    color:#000;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.nav-inner > div > a:hover{
+    color:#838383;
+    transform: translateY(10px);
+}
+
+
+.nav-title > img{
+    animation: moveUpDown 1s infinite alternate;
+}
+
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+.photo-container > img{
+    width: 100%;
+    height:100vh;
+    filter: brightness(50%);
+    object-fit: cover;   
+    z-index: -1;
+}
+
+#photo-btn{
+    color:#fff;
+    position: absolute;
+    z-index: 1;
+    top:1rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1290px){
+    #photo-btn{
+        position: absolute;
+        top:4rem;
+    }
+}
+
+@media(max-width: 1050px){
+    #photo-btn{
+        position: absolute;
+        top:7rem;
+    }
+}
+
+@media(max-width: 750px){
+    #photo-btn{
+        position: absolute;
+        top:10rem;
+    }
+}
+
+#photo-btn > *{
+    margin-top: 30%;
+    font-size: 120%;
+    background-color: transparent;
+    transition: 1s;
+}
+
+#photo-btn > *:hover{
+    transform: translateY(10px);
+}
+
+.header-container{
+    position: relative;
+    top:1.5rem;
+}
+
+.upper-title{
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+.upper-title > span{
+    display: flex;
+    font-size: 170%;
+    color: rgb(90, 90, 90);
+}
+
+hr{
+    width: 7.5%;
+    background-color: rgb(33, 240, 119);
+    height: 1px;
+    border-style: none;
+    margin-left: 0.5%;
+    position: relative;
+    top:0.2rem;
+}
+
+.lower-title{
+    padding-left: 3%;
+}
+
+.lower-title > span{
+    font-size: 270%;
+    color:rgb(143, 58, 58);
+    font-weight: 600;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5FC;
+    width: 25%;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.feature-card > span{
+    font-size: 170%;
+}
+
+#description{
+    width: 80%;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+}
+
+.features-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding: 3%;
+}
+
+
+.requester-header{
+    font-size: 230%;
+    /* padding-left: 3%; */
+    padding: 2%;
+    color:rgb(143, 58, 58);
+    font-weight: 600;
+    position: relative;
+    top:4rem;
+}
+
+.requester-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(234, 117, 117); */
+    position: relative;
+    top:5rem;
+}
+
+.doc-view{
+    display: flex;
+    justify-content: center;
+    color:rgb(40, 200, 40);
+    font-size: 125%;
+    width: 100%;
+    transition: 1s;
+    position: relative;
+    top:2rem;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
+.doc-view:hover{
+    color:pink;
+    transform: translateY(5px);
+}
+
+.requester-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.requester-input > div:first-child{
+    background-color: rgb(211, 211, 211);
+    font-size: 150%;
+    padding: 1%;
+    border-radius: 5px 0 0 5px;
+}
+
+.requester-input > Button{
+    box-shadow: none;
+}
+
+#copy-btn{
+    background-color: rgb(211, 211, 211);
+    width: 2%;
+    height: 3.45rem;
+}
+
+#send-btn{
+    background-color: rgb(5, 192, 5);
+    height: 3.45rem;
+}
+
+.response-container{
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+}
+
+.response-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 170%;
+    width: 20%;
+    border-radius: 3px;
+    height: 5rem;
+}
+
+.response-div{
+    background-color: #ececee;
+    width: 75%;
+    height: 30rem;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 1rem;
+    overflow-x: auto;
+}
+
+
+.footer-container{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    color:#fff;
+}
+
+.footer-title{
+    padding: 1%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.hint-container{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hints{
+    width: 50%;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    background-color: rgb(230, 229, 229);
+    padding: 1%;
+    border-radius: 3px;
+}
+
+.hints > div{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.hints > div > a{
+    color:#56b815;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.hints > div > a:hover{
+    text-decoration: dotted;
+    color:#000;
+    transform: translateX(5px);
+}
+
+.scroll-to-top{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+}
+
+.copy-container{
+    position: relative;
+    top:4.5rem;
+    display: flex;
+    justify-content: center;
+    left:55%;
+}
+
+#navbar-bck{
+    background-color: #000;
+}
+
+#navbar-bck-btn{
+    font-family: serif;
+    font-size: 100%;
+}
+
+#navbar-bck-btn:hover{
+    transform: translateY(5px);
+    transition: 1s;
+    color:gold;
+}
+
+.title-bck{
+    color:gold;
+    font-weight: 600;
+    font-size: 140%;
+    text-decoration: none;
+    font-family:serif;
+}
+
+#sidebar-bck{
+   background-color: #ffffff;
+}
+
+.listItem-bck:hover{
+    color:gold;
+    transform: translateY(5px);
+    transition: 1s;
+}
+
+.menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30%;
+    margin-left: 30%;
+    border-radius: 50%;
+}
+
+.menu-icon:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 1s;
+}
+
+
+
+
+
+

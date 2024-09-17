@@ -1,0 +1,334 @@
+body{
+    font-family: serif;
+}
+
+.doc-nav-container{
+    display: flex;
+    padding: 0.5%;
+    background-color: #000000;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    opacity: 0.85;
+    height: 4rem;
+}
+
+.toggle-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.toggle-btn > Button:hover{
+    background-color: #2f2f2f;
+    transition: 1s;
+}
+
+.link-buttons-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color:#fff;
+    gap:0.7rem;
+    width: 100%;
+    margin-right: 1.7%;
+}
+
+.link-buttons-container > *{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1.4%;
+    color:#fff;
+    display: flex;
+}
+
+.link-buttons-container > *:hover{
+    background-color: rgb(76, 76, 76);
+    transition: 1s;
+}
+
+hr{
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+}
+
+.doc-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+    font-size: 130%;
+    width: 100%;
+    color:gold;
+    padding-left: 1%;
+    text-decoration: none;
+    padding-top: 1px;
+    width: 230px;
+}
+
+
+.custom-scrollbar{
+    background-color: #121212;
+    color:#fff;
+}
+
+.sidebar-icons{
+    color:#fff;
+}
+
+
+.listItem{
+    color:#fff;
+    text-decoration: none;
+}
+
+.listItem:hover{
+    background-color: #fff;
+    color:#000;
+    transition: 1s;
+    .sidebar-icons{
+        color:#121212;
+        transition: 1s;
+    }
+}
+
+.card-container{
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.the-card{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.get-btn{
+    background-color: rgb(16, 189, 16);
+    font-size: 120%;
+    /* width: 4%; */
+    width: 60px;
+    border-radius: 3px;
+    padding: 0.2%;
+    color:#fff;
+    font-weight: 600;
+    font-family: Arial;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.url-bar{
+    background-color: rgb(216, 216, 216);
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    padding: 0.8%;
+    border-radius: 3px;
+    font-family: Arial;
+    position: relative;
+    top:1px;
+}
+
+.card-title{
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.card-desc{
+    font-size: 125%;
+    margin-top: 0.3rem;
+}
+
+.inner-title{
+    font-size: 165%;
+    font-weight: 600;
+}
+
+.inner-card-container{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.inner-desc{
+    font-size: 110%;
+}
+
+#doc-hr{
+    height: 2.5px;
+    background-color: rgb(216, 216, 216);
+    position: relative;
+    top:0.4rem;
+}
+
+.whole-card{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 0.5rem;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    position: relative;
+    top:2rem;
+}
+
+.about{
+    background-color: rgb(226, 226, 226);
+    /* background-color: rgb(68, 68, 68);
+    color:#ffffff; */
+    padding: 2%;
+    width: 85%;
+    font-size: 120%;
+    border-radius: 5px;
+}
+
+.about-title{
+    font-size: 180%;
+}
+
+.about-body{
+    padding: 1%;
+}
+
+.notated-word{
+    color:green;
+    font-weight: 600;;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#race-endpoint > *{
+    width: 105%;
+    position: relative;
+    left:-6px;
+    height: 2.3rem;
+    top:-1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:1000px){
+    .about{
+        width: 95%;
+    }
+}
+
+@media(max-width: 845px){
+    #race-card{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap:0.5rem;
+    }
+
+    #race-endpoint{
+        position: relative;
+        top:-1px;
+    }
+
+    #race-endpoint > *{
+        width: 110%;
+        height: 2.3rem;
+        position: relative;
+        top:-0.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 650px){
+    .the-card{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap:0.5rem;
+    }
+}
+
+@media(max-width: 650px){
+    .url-bar{
+        font-size: 105%;
+        padding: 2%;
+    }
+}
+
+@media(max-width: 500px){
+    .url-bar{
+        font-size: 90%;
+    }
+}
+
+
+
+@media(max-width: 460px){
+    .doc-title{
+        width: 170px;
+        position: relative;
+        top:0.1rem;
+        left: -7px;
+    }
+}
+
+@media(max-width: 428px){
+    .the-card{
+        display: flex;
+        gap:0.5rem;
+    }
+
+    .get-btn{
+        width: 55px;
+    }
+
+    .url-bar{
+        font-size: 80%;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .the-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap:0.5rem;
+        align-items: start;
+    }
+
+
+    #race-endpoint > *{
+        width: 105%;
+    }
+    
+}
+
+@media(max-width: 385px){
+    .url-bar{
+        width: 100%;
+        font-size: 75%;
+    }
+
+    #race-endpoint > *{
+        width: 100%;
+    }
+}

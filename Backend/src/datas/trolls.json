@@ -1,0 +1,103 @@
+{
+  "trolls": [
+    {
+      "name": "William",
+      "race": "Mountain Troll",
+      "affiliation": "None",
+      "home": "The Trollshaws",
+      "role": "Troll Leader",
+      "quotes": [
+        "Smash the little ones!",
+        "They'll make a nice stew."
+      ],
+      "tools": [
+        {
+          "name": "Troll Club",
+          "description": "A large, heavy club used by William to crush his enemies."
+        }
+      ],
+      "background_story": "William is the leader of the trolls dwelling in The Trollshaws. Known for his brutish strength and leadership among the trolls, he often leads raids and attacks on unsuspecting travelers.",
+      "powers_and_abilities": [
+        "Immense Strength",
+        "Durability",
+        "Combat Skills"
+      ],
+      "appearance": {
+        "description": "William is large and imposing, with a rugged and intimidating appearance. His skin is rough and gray, and he wields a massive club."
+      },
+      "characteristic_traits": [
+        "Aggressive",
+        "Dominant",
+        "Savage"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    },
+    {
+      "name": "Tom",
+      "race": "Mountain Troll",
+      "affiliation": "None",
+      "home": "The Trollshaws",
+      "role": "Troll",
+      "quotes": [
+        "What’s that noise?",
+        "I’m hungry. Let’s eat them now."
+      ],
+      "tools": [
+        {
+          "name": "Troll Club",
+          "description": "A massive club used for smashing and bashing."
+        }
+      ],
+      "background_story": "Tom is one of the trolls from The Trollshaws, known for his gluttonous nature and low cunning. He is often seen with his companions, causing trouble and raiding for food.",
+      "powers_and_abilities": [
+        "Great Strength",
+        "Robustness",
+        "Combat Skills"
+      ],
+      "appearance": {
+        "description": "Tom is enormous, with a rough exterior and an intimidating presence. His club is oversized, reflecting his strength."
+      },
+      "characteristic_traits": [
+        "Gluttonous",
+        "Unpredictable",
+        "Violent"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    },
+    {
+      "name": "Bert",
+      "race": "Mountain Troll",
+      "affiliation": "None",
+      "home": "The Trollshaws",
+      "role": "Troll",
+      "quotes": [
+        "You lot stay put!",
+        "They’ll taste great with some gravy."
+      ],
+      "tools": [
+        {
+          "name": "Troll Club",
+          "description": "A large, wooden club with a rough, unrefined edge."
+        }
+      ],
+      "background_story": "Bert is another troll residing in The Trollshaws. His role is to assist William and Tom in their raids. He is known for his brutish behavior and his appetite for destruction.",
+      "powers_and_abilities": [
+        "Extreme Strength",
+        "Durability",
+        "Skilled in Combat"
+      ],
+      "appearance": {
+        "description": "Bert has a fierce appearance with rugged, gray skin and a large, crude club. His physical presence is imposing and formidable."
+      },
+      "characteristic_traits": [
+        "Brutal",
+        "Hungry",
+        "Strong"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    }
+  ]
+}

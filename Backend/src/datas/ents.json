@@ -1,0 +1,148 @@
+{
+  "ents": [
+    {
+      "name": "Treebeard",
+      "race": "Ent",
+      "home": "Fangorn Forest",
+      "role": "Leader of the Ents",
+      "quotes": [
+        "I am Treebeard, and I am not a hasty person.",
+        "The trees are speaking. They have a message for us."
+      ],
+      "features": [
+        {
+          "name": "Ancient Wisdom",
+          "description": "Treebeard is the oldest of the Ents and possesses great knowledge of the forest and its history."
+        },
+        {
+          "name": "Great Strength",
+          "description": "Treebeard has immense physical strength, capable of uprooting trees and battling Orcs."
+        }
+      ],
+      "background_story": "Treebeard, also known as Fangorn, is the oldest and wisest of the Ents. He is the guardian of Fangorn Forest and leads his kind in the defense of the forest against any threat.",
+      "powers_and_abilities": [
+        "Immense Strength",
+        "Ancient Knowledge",
+        "Command over Forest Creatures"
+      ],
+      "appearance": {
+        "description": "Treebeard has a massive, tree-like form with a bark-like exterior. His face and limbs are gnarled and covered in moss, and he moves with a slow, deliberate gait."
+      },
+      "characteristic_traits": [
+        "Wise",
+        "Patient",
+        "Protective"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    },
+    {
+      "name": "Quickbeam",
+      "race": "Ent",
+      "home": "Fangorn Forest",
+      "role": "Ent",
+      "quotes": [
+        "I am Quickbeam, and I have a short temper.",
+        "We must hurry to help our friends."
+      ],
+      "features": [
+        {
+          "name": "Youthful Agility",
+          "description": "Quickbeam is younger and more agile compared to other Ents, allowing him to move faster."
+        },
+        {
+          "name": "Loyalty",
+          "description": "Quickbeam is fiercely loyal to Treebeard and the Ent cause, often acting on impulse."
+        }
+      ],
+      "background_story": "Quickbeam is a younger Ent who is more energetic and quick to act compared to his older kin. He is dedicated to the protection of Fangorn Forest and often assists Treebeard in his efforts.",
+      "powers_and_abilities": [
+        "Increased Speed",
+        "Strong Loyalty",
+        "Rapid Response"
+      ],
+      "appearance": {
+        "description": "Quickbeam has a more slender and agile appearance than the older Ents. His bark is smoother and less gnarled, and he moves with greater speed and agility."
+      },
+      "characteristic_traits": [
+        "Energetic",
+        "Impulsive",
+        "Loyal"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    },
+    {
+      "name": "Beechbone",
+      "race": "Ent",
+      "home": "Fangorn Forest",
+      "role": "Ent",
+      "quotes": [
+        "The forest must be protected from the darkness.",
+        "We stand together as one against the enemies."
+      ],
+      "features": [
+        {
+          "name": "Forest Guardian",
+          "description": "Beechbone is dedicated to protecting the forest and its inhabitants from threats."
+        },
+        {
+          "name": "Endurance",
+          "description": "As an Ent, Beechbone has great endurance and can withstand prolonged battles."
+        }
+      ],
+      "background_story": "Beechbone is a steadfast guardian of Fangorn Forest, known for his dedication to protecting the forest from any harm. His endurance in battle makes him a crucial defender of his home.",
+      "powers_and_abilities": [
+        "Endurance",
+        "Forest Protection",
+        "Combat Skills"
+      ],
+      "appearance": {
+        "description": "Beechbone has a robust and solid appearance with a strong, enduring form. His bark is thick and resilient, reflecting his role as a protector."
+      },
+      "characteristic_traits": [
+        "Steadfast",
+        "Protective",
+        "Resilient"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    },
+    {
+      "name": "Humbaba",
+      "race": "Ent",
+      "home": "Fangorn Forest",
+      "role": "Ent",
+      "quotes": [
+        "We will not let our home fall to ruin.",
+        "The darkness will not prevail here."
+      ],
+      "features": [
+        {
+          "name": "Strong Protector",
+          "description": "Humbaba is one of the strong protectors of Fangorn Forest, fighting against invaders."
+        },
+        {
+          "name": "Solidarity",
+          "description": "Humbaba exhibits strong solidarity with other Ents and is dedicated to their shared cause."
+        }
+      ],
+      "background_story": "Humbaba is a formidable Ent known for his strength and solidarity with fellow Ents. He plays a crucial role in defending Fangorn Forest and stands as a symbol of unity among the Ents.",
+      "powers_and_abilities": [
+        "Physical Strength",
+        "Protective Combat",
+        "Unity with Ents"
+      ],
+      "appearance": {
+        "description": "Humbaba has a powerful and imposing figure with thick, rugged bark. His strong build and presence reflect his role as a protector of the forest."
+      },
+      "characteristic_traits": [
+        "Strong",
+        "Loyal",
+        "Dedicated"
+      ],
+      "gender": "male",
+      "ring_bearer": false
+    }
+  ]
+}
