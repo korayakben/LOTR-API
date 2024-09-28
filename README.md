@@ -175,7 +175,7 @@ This API provides data related to various characters, races, and locations from 
   }
   ```
 
-  **409 Too many requests:** If there's more than 25 requests sent from the same IP address in 3 mins, the response will be:
+  **409 Too many requests:** If there's more than 30 requests sent from the same IP address in 3 mins, the response will be:
 
   ```json
   {
