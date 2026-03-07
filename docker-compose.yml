@@ -7,7 +7,7 @@ services:
     networks:
       - lotr-net
     environment:
-      - VITE_API_URL=http://server:3000/api/v1
+      - VITE_API_URL=http://server:3000/api/v1 #Put your own IP address in the place of server.
     depends_on:
       - server
 
