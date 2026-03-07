@@ -10,7 +10,7 @@ import CheckIcon from '@mui/icons-material/Check';
 function Requester() {
     const [hintValue, setHintValue] = useState("universe");
     const [response, setResponse] = useState("");
-    const URL = `http://localhost:3000/api/v1/${hintValue}`;
+    const URL = `http://44.192.110.244:3000/api/v1/${hintValue}`;
     const [copiedMessage, setCopiedMessage] = useState("");
     const [displayType, setDisplayType] = useState("none");
 
@@ -86,7 +86,7 @@ function Requester() {
                 <div className='requester-input'>
 
                     <div className='url-input-div'>
-                    <div id="url-div">http://localhost:3000/api/v1/</div>
+                    <div id="url-div">http://lotrapi.com/api/v1/</div>
 
 
 <TextField id="outlined-basic" label={hintValue} variant="outlined" InputProps={{ style: { borderRadius: '0px', height:"3.45rem" } }} onChange={handleChange} />
