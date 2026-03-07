@@ -10,7 +10,7 @@ import CheckIcon from '@mui/icons-material/Check';
 function Requester() {
     const [hintValue, setHintValue] = useState("universe");
     const [response, setResponse] = useState("");
-    const URL = `http://44.198.179.136:3000/api/v1/${hintValue}`;
+    const URL = `http://localhost:3000/api/v1/${hintValue}`;
     const [copiedMessage, setCopiedMessage] = useState("");
     const [displayType, setDisplayType] = useState("none");
 
