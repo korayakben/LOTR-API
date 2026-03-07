@@ -1,19 +1,23 @@
 services:
   client:
-    container_name: "lotrcli-container"
+    container_name: lotrcli-container
+    build: ./Frontend
     ports:
       - "5173:5173"
     networks:
-      - "lotr-net"
-    build: "./Frontend"
+      - lotr-net
+    environment:
+      - VITE_API_URL=http://server:3000/api/v1
+    depends_on:
+      - server
 
   server:
-    container_name: "lotrsrv-container"
+    container_name: lotrsrv-container
+    build: ./Backend
     ports:
       - "3000:3000"
-    networks: 
-      - "lotr-net"
-    build: "./Backend"
+    networks:
+      - lotr-net
 
 networks:
   lotr-net:
