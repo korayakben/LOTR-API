@@ -90,13 +90,13 @@ function Requester() {
                     <div id="url-div">{API_BASE}/</div>
 
 
-<TextField id="outlined-basic" label={hintValue} variant="outlined" InputProps={{ style: { borderRadius: '0px', height:"3.45rem" } }} onChange={handleChange} />
+                <TextField id="outlined-basic" label={hintValue} variant="outlined" InputProps={{ style: { borderRadius: '0px', height:"3.45rem" } }} onChange={handleChange} />
                     </div>
 
 
 
                     <Button id="copy-btn" variant="contained" sx={{ borderRadius: "0" }} onClick={handleCopyClipboard}>
-                        <img src="../public/icons/copy.png" alt="copy" style={{ width: "65%" }} />
+                        <img src="/icons/copy.png" alt="copy" style={{ width: "65%" }} />
                     </Button>
 
 
