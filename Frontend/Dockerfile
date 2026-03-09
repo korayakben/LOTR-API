@@ -1,4 +1,4 @@
-FROM node:18-alpine
+From node:18-alpine as builder
 
 WORKDIR /Frontend
 
@@ -6,9 +6,17 @@ COPY package*.json .
 
 RUN npm install
 
-COPY . .
+COPY . . 
 
-EXPOSE 5173
+RUN npm run build
+ 
 
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]
+FROM nginx:alpine
 
+COPY --from=builder /Frontend/dist /usr/share/nginx/html
+
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

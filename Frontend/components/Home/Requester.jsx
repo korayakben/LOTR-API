@@ -10,7 +10,7 @@ import CheckIcon from '@mui/icons-material/Check';
 function Requester() {
     const [hintValue, setHintValue] = useState("universe");
     const [response, setResponse] = useState("");
-    const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:3000/api/v1";
+    const API_BASE = import.meta.env.VITE_API_URL
     const URL = `${API_BASE}/${hintValue}`;
     const [copiedMessage, setCopiedMessage] = useState("");
     const [displayType, setDisplayType] = useState("none");

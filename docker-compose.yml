@@ -3,11 +3,11 @@ services:
     container_name: lotrcli-container
     build: ./Frontend
     ports:
-      - "5173:5173"
+      - "80:80"
     networks:
       - lotr-net
     environment:
-      - VITE_API_URL=http://server:3000/api/v1 #Put your own IP address in the place of server.
+      - VITE_API_URL=http://44.201.39.247:3000/api/v1 #Put your own IP address in the place of server.
     depends_on:
       - server
 
